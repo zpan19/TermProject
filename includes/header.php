@@ -58,6 +58,7 @@ session_start();
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Products</a>
             <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/OnlineShop/php/products.php?category=all">All</a></li>
               <li><a class="dropdown-item" href="/OnlineShop/php/products.php?category=cpu">CPU</a></li>
               <li><a class="dropdown-item" href="/OnlineShop/php/products.php?category=videocard">Video Card</a></li>
               <li><a class="dropdown-item" href="/OnlineShop/php/products.php?category=motherboard">Motherboard</a></li>
@@ -67,6 +68,8 @@ session_start();
               <li><a class="dropdown-item" href="/OnlineShop/php/products.php?category=monitor">Monitor</a></li>
               <li><a class="dropdown-item" href="/OnlineShop/php/products.php?category=keyboard">Keyboard</a></li>
               <li><a class="dropdown-item" href="/OnlineShop/php/products.php?category=mouse">Mouse</a></li>
+              <li><a class="dropdown-item" href="/OnlineShop/php/products.php?category=ram">RAM</a></li>
+              <li><a class="dropdown-item" href="/OnlineShop/php/products.php?category=psu">Power Supply</a></li>
             </ul>
           </li>
 
