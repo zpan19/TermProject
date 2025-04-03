@@ -5,7 +5,8 @@ require_once '../includes/connect.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // get data
     $email = $_POST['email'];
-    $password = $_POST['password']; //  password_hash()
+    $password = $_POST['password'];
+    $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
     $address = $_POST['address'];
     $city = $_POST['city'];
     $province = $_POST['province'];
@@ -21,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     
     $sql = "INSERT INTO client_info (email, password, address, city, province, postalcode)
-            VALUES ('$email', '$password', '$address', '$city', '$province', '$postalcode')";
+        VALUES ('$email', '$hashedPassword', '$address', '$city', '$province', '$postalcode')";
 
     if (mysqli_query($connect, $sql)) {
         echo "<div style='text-align:center; padding:50px;'><h2>✅ Registration successful!</h2></div>";
