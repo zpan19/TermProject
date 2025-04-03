@@ -1,0 +1,24 @@
+{
+  "name": "onlineshop",
+  "version": "1.0.0",
+  "description": "Term project",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --watch --no-source-map scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zpan19/TermProject.git"
+  },
+  "author": "Zian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zpan19/TermProject/issues"
+  },
+  "homepage": "https://github.com/zpan19/TermProject#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.86.2"
+  }
+}
