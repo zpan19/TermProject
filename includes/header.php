@@ -84,7 +84,7 @@ session_start();
     </div>
   </nav>
 
-  <!-- 登录信息 -->
+
   <div class="container d-flex justify-content-end mb-2">
     <?php if (isset($_SESSION['email'])): ?>
       <span class="me-2 text-muted">👋 Logged in as <?= $_SESSION['email'] ?></span>
