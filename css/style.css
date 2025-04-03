@@ -1,1 +1,16 @@
-
+.navbar-brand {
+    font-size: 1.6rem;
+  }
+  
+  .navbar .nav-link {
+    font-weight: 500;
+  }
+  
+  .navbar .dropdown-menu {
+    border-radius: 0;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+  
